@@ -1,0 +1,24 @@
+//this code is used to binlk led,rotate servo and use buzzer at a time.
+#include <Servo.h>
+
+Servo s;
+int buzzerPin=9;
+
+void setup() {
+  // put your setup code here, to run once:
+s.attach(10);
+pinMode(13, OUTPUT);
+pinMode(buzzerPin, OUTPUT);
+}
+
+void loop() {
+  // put your main code here, to run repeatedly:
+s.write(0);
+noTone(buzzerPin);
+digitalWrite(13, LOW);
+delay(1000);
+digitalWrite(13, HIGH);
+s.write(180);
+tone(buzzerPin,1000);
+delay(1000);
+}
