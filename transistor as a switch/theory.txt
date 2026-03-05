@@ -1,0 +1,30 @@
+transistor works as a switch when we operate in two regions that is 
+In a transistor used as a switch, it operates in two regions:
+
+1️⃣ Cut-off Region
+
+Base current = 0
+
+Base-Emitter junction is not forward biased
+
+Transistor is OFF
+
+Collector current = 0
+
+Acts like an open switch
+
+Load (LED) is OFF
+
+2️⃣ Saturation Region
+
+Base current is sufficient
+
+Both Base-Emitter and Base-Collector junctions are forward biased
+
+Transistor is fully ON
+
+Acts like a closed switch
+
+Maximum collector current flows
+
+Load (LED) glows
